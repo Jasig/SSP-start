@@ -1,4 +1,4 @@
-![uPortal logo](docs/images/uPortal-logo.jpg)
+# Welcome to the Student Success SSP-start (built on uPortal) - Open Source Edition
 
 [![Linux Build Status](https://travis-ci.org/Jasig/uPortal-start.svg?branch=master)](https://travis-ci.org/Jasig/uPortal-start)
 
