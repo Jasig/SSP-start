@@ -1,4 +1,4 @@
-rootProject.name = 'uPortal-start'
+rootProject.name = 'SSP-start'
 
 include 'overlays:Announcements'
 include 'overlays:basiclti-portlet'
