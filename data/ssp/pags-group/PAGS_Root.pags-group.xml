@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Licensed to Apereo under one or more contributor license
+    agreements. See the NOTICE file distributed with this work
+    for additional information regarding copyright ownership.
+    Apereo licenses this file to you under the Apache License,
+    Version 2.0 (the "License"); you may not use this file
+    except in compliance with the License.  You may obtain a
+    copy of the License at the following location:
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+    KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+
+-->
+<!--
+  Group pags_root: "PAGS Root"
+  IMPORTANT: The PAGS Root group is REQUIRED for uPortal to function. It Must be a member of the Everyone group in the
+  local group store
+-->
+<pags-group script="classpath://org/jasig/portal/io/import-pags-group_v4-1.crn">
+  <name>PAGS Root</name>
+  <description>Root group for all PAGS groups.  Convenience for adding PAGS groups to a local group.</description>
+  <members>
+    <member-name>All Users (PAGS)</member-name>
+    <member-name>Authenticated Users</member-name>
+    <member-name>Desktop Device Access</member-name>
+    <member-name>Mobile Device Access</member-name>
+    <!-- Roles -->
+    <member-name>(is) SSP_ADMINISTRATOR</member-name>
+    <member-name>(is) SSP_COACH</member-name>
+    <member-name>(is) SSP_DEVELOPER</member-name>
+    <member-name>(is) SSP_FACULTY</member-name>
+    <member-name>(is) SSP_MANAGER</member-name>
+    <member-name>(is) SSP_SUPPORT_STAFF</member-name>
+    <member-name>(is) SSP_STUDENT</member-name>
+    <member-name>(is) SSP_MAP_TEMPLATE_ADMIN</member-name>
+    <!-- Special Permissions -->
+    <member-name>(has) DATA_ACADEMIC_RESOURCE_CENTER</member-name>
+    <member-name>(has) DATA_COUNSELING_SERVICES</member-name>
+    <member-name>(has) DATA_DISABILITY</member-name>
+    <member-name>(has) DATA_DISPLACED_WORKERS</member-name>
+    <member-name>(has) DATA_EARLY_ALERT</member-name>
+    <member-name>(has) DATA_ENGLISH_SECOND_LANGUAGE</member-name>
+    <member-name>(has) DATA_FAST_FORWARD</member-name>
+    <member-name>(has) DATA_INDIVIDUALIZED_LEARNING_PLAN</member-name>
+    <member-name>(has) DATA_CL_01</member-name>
+  </members>
+</pags-group>
