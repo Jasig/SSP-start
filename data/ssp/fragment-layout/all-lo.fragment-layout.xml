@@ -35,6 +35,9 @@
         <folder ID="s40" hidden="true" immutable="true" name="Customize folder" type="customize" unremovable="true">
             <channel fname="personalization-gallery" unremovable="false" hidden="false" immutable="false" ID="n42"/>
         </folder>
+        <folder ID="s200" hidden="false" immutable="true" name="Eyebrow folder" type="eyebrow" unremovable="true">
+            <channel fname="ssp-quicklinks" unremovable="false" hidden="false" immutable="false" ID="n210"/>
+        </folder>
         <folder id="s500" hidden="false" immutable="true" name="First Footer" type="footer-first" unremovable="true">
             <channel fname="ssp-footer" unremovable="true" hidden="false" immutable="false" ID="n510"/>
         </folder>
