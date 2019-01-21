@@ -1,0 +1,11 @@
+import org.apereo.portal.start.gradle.plugins.GradlePlutoPlugin
+
+apply plugin: GradlePlutoPlugin
+
+dependencies {
+    runtime "org.jasig.ssp:ssp:${sspVersion}@war"
+}
+
+war {
+    archiveName 'ssp.war'
+}
