@@ -8,6 +8,8 @@ plugins {
 dependencies {
     runtime "org.jasig.portal:uPortal-webapp:${uPortalVersion}@war"
     compile configurations.jdbc
+
+    compileOnly "org.jasig.portal:uPortal-api-rest:${uPortalVersion}"
 }
 
 apply plugin: GradleImportExportPlugin
