@@ -27,7 +27,7 @@
 	an error message, then you likely have an xml syntax error. -->
 <configuration debug="false" scan="true">
 
-	<property file="/home/drew/Projects/Apereo/SSP/ssp-local/ssp-config.properties" />
+	<property file="${portal.home}/ssp-config.properties" />
 
 	<appender name="consoleAppender" class="ch.qos.logback.core.ConsoleAppender">
 		<encoder>
