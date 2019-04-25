@@ -40,6 +40,7 @@
         </folder>
         <folder ID="s200" hidden="false" immutable="true" name="Eyebrow folder" type="eyebrow" unremovable="true">
             <channel fname="ssp-logo" unremovable="false" hidden="false" immutable="false" ID="n210"/>
+            <channel fname="ssp-navigation" unremovable="false" hidden="false" immutable="false" ID="n220"/>
         </folder>
     </folder>
 </layout>

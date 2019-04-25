@@ -4,7 +4,7 @@ task portalInit {
             'the integrated Tomcat servlet container, deploys all uPortal technology to Tomcat, ' +
             'creates the database schema, and imports both the Base & Implementation data sets'
     dependsOn allprojects.collect { it.tasks.matching { it.name.equals('clean') } }
-    dependsOn ':hsqlStart'
+//    dependsOn ':hsqlStart'
     dependsOn ':tomcatInstall'
     dependsOn allprojects.collect { it.tasks.matching { it.name.equals('tomcatDeploy') } }
     dependsOn allprojects.collect { it.tasks.matching { it.name.equals('dataInit') } }

@@ -33,3 +33,5 @@ if [ $? -eq 1 ]
 then
     CATALINA_OPTS="$CATALINA_OPTS -Xmx512m"
 fi
+
+JAVA_OPTS="-Xdebug -Xrunjdwp:transport=dt_socket,address=8001,server=y,suspend=n -Xms512m -Xmx512m"

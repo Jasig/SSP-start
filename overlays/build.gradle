@@ -43,7 +43,8 @@ subprojects {
          * Add additional JDBC driver jars to the 'jdbc' configuration below;
          * do not remove the hsqldb driver jar that is already listed.
          */
-        jdbc "org.hsqldb:hsqldb:${hsqldbVersion}"
+        //jdbc "org.hsqldb:hsqldb:${hsqldbVersion}"
+        jdbc "org.postgresql:postgresql:42.1.4"
 
         /*
          * These are nearly the same uPortal dependencies declared by uPortal-webapp;

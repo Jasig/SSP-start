@@ -92,10 +92,10 @@
         &lt;div class="content"&gt;
             &lt;ul&gt;
                 &lt;li&gt;
-                    &lt;a href="/ssp-platform/p/groupsmanager"&gt;Manage groups&lt;/a&gt;
+                    &lt;a href="/uPortal/p/groupsmanager"&gt;Manage groups&lt;/a&gt;
                 &lt;/li&gt;
                 &lt;li&gt;
-                    &lt;a href="/ssp-platform/p/permissionsmanager"&gt;Manage permissions&lt;/a&gt;
+                    &lt;a href="/uPortal/p/permissionsmanager"&gt;Manage permissions&lt;/a&gt;
                 &lt;/li&gt;
             &lt;/ul&gt;
         &lt;/div&gt;

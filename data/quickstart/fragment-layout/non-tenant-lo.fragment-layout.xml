@@ -40,6 +40,7 @@
         </folder>
         <folder ID="s200" hidden="false" immutable="true" name="Header Left folder" type="header-left" unremovable="true">
             <channel fname="portal-logo" unremovable="false" hidden="false" immutable="false" ID="n210"/>
+            <channel fname="ssp-navigation" unremovable="false" hidden="false" immutable="false" ID="n210"/>
         </folder>
     </folder>
 </layout>
