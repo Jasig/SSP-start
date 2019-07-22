@@ -74,7 +74,7 @@
     </script>
 
     <div class="copyright">
-        <p>Student Success Plan   |   Copyright 2017, Apereo Foundation   |   All rights reserved.</p>
+        <p>Student Success Plan   |   Copyright 2019, Apereo Foundation   |   All rights reserved.</p>
         <div style="cursor: pointer" id="InfoToggle">Click here for Version Information</div>
     </div>
 
