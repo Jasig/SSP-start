@@ -31,7 +31,7 @@ fi
 echo $CATALINA_OPTS | grep -e '-Xmx'
 if [ $? -eq 1 ]
 then
-    CATALINA_OPTS="$CATALINA_OPTS -Xmx512m"
+    CATALINA_OPTS="$CATALINA_OPTS -Xmx2048m"
 fi
 
-JAVA_OPTS="-Xdebug -Xrunjdwp:transport=dt_socket,address=8001,server=y,suspend=n -Xms512m -Xmx512m"
+JAVA_OPTS="-Xdebug -Xrunjdwp:transport=dt_socket,address=8001,server=y,suspend=n -Xms2048m -Xmx2048m"
