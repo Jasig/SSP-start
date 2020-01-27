@@ -8,4 +8,9 @@ dependencies {
 
 war {
     archiveName 'ssp.war'
+
+    manifest {
+        from(zipTree(configurations.runtime.files.getAt(0)).matching({ include 'META-INF/MANIFEST.MF' }).getSingleFile())
+        attributes("SSP-Ext-UPOverlay-Artifact-Version":"${uPortalVersion}")
+    }
 }

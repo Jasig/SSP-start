@@ -21,12 +21,9 @@
                         + data.scmRevision + " </p>";
 
                     platformInfo = "<p>"
-                        + "Platform Version"
-                        + ": " + "2.8.1-SNAPSHOT"
-                        + "  |  " + "Platform BuildDate"
-                        + ": " + intToDate(1548092006351) + "  |  "
-                        + "Platform SCM Revision"
-                        + ": " + "eeb34332425f24effa5e4f80b0f46f8e24011925" + " </p>";
+                        + "uPortal Version"
+                        + ": " + data.extensions[0].artifactVersion
+                        + " </p>";
 
                     up.jQuery('#InfoToggle').text(clickVersionLabel);
                 },
@@ -74,7 +71,7 @@
     </script>
 
     <div class="copyright">
-        <p>Student Success Plan   |   Copyright 2019, Apereo Foundation   |   All rights reserved.</p>
+        <p>Student Success Plan   |   Copyright 2020, Apereo Foundation   |   All rights reserved.</p>
         <div style="cursor: pointer" id="InfoToggle">Click here for Version Information</div>
     </div>
 
