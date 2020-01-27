@@ -2,20 +2,21 @@
 
 [![Linux Build Status](https://travis-ci.org/Jasig/uPortal-start.svg?branch=master)](https://travis-ci.org/Jasig/uPortal-start)
 
-## About uPortal-start
+## About SSP-start
 
-uPortal-start is the mechanism through which individuals and institutions adopt [Apereo uPortal][],
-the leading open source enterprise portal framework built by and for higher education institutions,
-K-12 schools, and research communities.  **uPortal-start is new for uPortal 5.0**
+SSP-start is the mechanism through which individuals and institutions adopt [Apereo SSP][]
 
-uPortal-start help you manage:
+### To start...  
+ *  developing, look at the documentation in [Developer Install Instructions](https://wiki.jasig.org/display/SSP/SSP+Developer+Installation+Instructions)  
+ *  installing, look at the documentation in [Install Docs](https://wiki.jasig.org/display/SSP/SSP+Installation+Documents)  
 
-  - Your uPortal configuration
-  - Your uPortal skin
-  - Your uPortal data
-  - And your uPortal deployments through an integrated suite of CLI tools
+#### For any other help...
+Please refer to other documentation in [SSP Wiki Home] (https://wiki.jasig.org/display/SSP/Home) 
+and if a solution can't be found the ssp email lists in [SSP Email Lists] (https://wiki.jasig.org/display/SSP/SSP+Email+Lists)
 
-### Prerequisites
+Alternatively, SSP-Start is built on uPortal and more information on uPortal is found at [uPortal site] (http://www.uportal.org) or [uPortal Wiki] (http://www.ja-sig.org/wiki/display/UPC/Home)
+ 
+### Requirements
 
 The following software packages are required for working with uPortal-start:
 
@@ -25,10 +26,9 @@ The following software packages are required for working with uPortal-start:
 Download and install the **latest JDK 8 release**.  Make sure you select the full JDK;  _a JRE is
 not sufficient!_
 
-:warning: _Always use Git_ to obtain a copy of uPortal-start.  (Please ignore the _Download ZIP_
-option provided by GitHub.)  The uPortal Developer Community makes improvements to uPortal-start
-every week:  new features, bug fixes, performance enhancements, additions to documentation, _&c._
-It is extremely important to be able to update your local copy of uPortal-start and (thereby)
+:warning: _Always use Git_ to obtain a copy of SSP-start.  (Please ignore the _Download ZIP_
+option provided by GitHub.)  The SSP Developer Community makes improvements to SSP-start.
+It is extremely important to be able to update your local copy of SSP-start and (thereby)
 benefit from these contributions.
 
 ### uPortal 5.0 Manual
