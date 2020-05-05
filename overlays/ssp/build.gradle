@@ -10,6 +10,7 @@ war {
     archiveName 'ssp.war'
 
     manifest {
+        //comment out the following line to perfrom portalInit
         from(zipTree(configurations.runtime.files.getAt(0)).matching({ include 'META-INF/MANIFEST.MF' }).getSingleFile())
         attributes("SSP-Ext-UPOverlay-Artifact-Version":"${uPortalVersion}")
     }
