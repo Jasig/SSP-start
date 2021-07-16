@@ -15,6 +15,7 @@ dependencies {
     shared "org.apache.portals.pluto:pluto-container-driver-api:${plutoVersion}"
     shared "org.apache.portals.pluto:pluto-taglib:${plutoVersion}"
     shared "org.apereo.service.persondir:person-directory-api:${personDirectoryVersion}"
+    //Remove this for uPortal 5.8.1
     shared "org.jasig.portal:uPortal-api-platform:${uPortalVersion}"
     shared "${portletApiDependency}"
 }
